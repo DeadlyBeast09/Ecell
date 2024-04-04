@@ -391,7 +391,7 @@ button:hover{
 	}
 }
 
-#home{
+#navbar{
     animation-name:fade-in;
     animation-duration: 1.5s;
     animation-delay: 0.1s;
@@ -407,7 +407,7 @@ button:hover{
         opacity: 1;
     }
 }
-#home .box1{
+#home{
     animation-name:fade-in;
     animation-duration: 3.5s;
     animation-delay: 0.1s;
@@ -423,7 +423,7 @@ button:hover{
         opacity: 1;
     }
 }
-#navbar{
+#home .box1{
     animation-name:fade-in;
     animation-duration: 5s;
     animation-delay: 0.1s;

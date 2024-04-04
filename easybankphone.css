@@ -1,5 +1,7 @@
 @media only screen and (max-width:655px) {
-
+*{
+    overflow-x:hidden;
+}
 #home .box1{
     text-align: center;
     display: flex;

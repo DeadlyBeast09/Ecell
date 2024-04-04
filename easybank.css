@@ -23,7 +23,7 @@
 
         display: none;
     }
-    /* display: block; */
+    
 }
 .list{
     display: flex;
@@ -37,7 +37,6 @@
 #navbar ul{
     display: flex;
     list-style: none;   
-    /* border:2px solid red; */
     padding:0px 0px;
  
 }
@@ -48,7 +47,6 @@
 #navbar ul li a{
     text-decoration: none;
     margin:0px 10px;
-    /* border: 2px solid red; */
 
  color:hsl(233, 8%, 62%);
  font-weight: 400;   
@@ -85,18 +83,15 @@
 #home{
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
-    /* background-color: hsl(0, 0%, 98%) ; */
     z-index: -2;
     height:120vh;
 }
 #home .box1{
-    /* border:2px solid red; */
     text-align: left;
     width:500px;
     
     margin:0px 30px;
-    /* height: 400px; */
+    
     height: fit-content;
 }
 #home .box1 h1{
@@ -127,14 +122,13 @@
      url('./images/bg-intro-desktop.svg')no-repeat ;
     background-position:125vh -13vh,80vh -40vh;
     background-size:contain 0;
-    /* background: url('./images/bg-intro-desktop.svg'); */
+    
 }
 
 
-/* why */
 
 #why .question{
-    /* border: 2px solid red; */
+   
     width: fit-content;
     position: relative;
     left:50px;
@@ -162,7 +156,7 @@
     text-align: left;
 }
 #why .container1{
-    /* border:2px solid red; */
+
     display: flex;
     padding:20px 0px;
     padding-bottom: 0px;
@@ -172,7 +166,7 @@
 #why .container1 .box{
     width: 270px;
     height: 380px;
-    /* border:2px solid red; */
+
     display: flex;
     flex-direction: column;
 }
@@ -209,7 +203,7 @@
     flex-wrap: wrap;
 }
 #articles .container2 .box{
-    /* border:2px solid red; */
+   
     display: flex;
     flex-direction: column;
     width:270px;
@@ -264,7 +258,7 @@
 #easybank .media{
     display: flex;
     flex-direction: column;
-    /* border:2px solid red; */
+  
     padding:10px;
 }
 #easybank .media .logo{
@@ -280,12 +274,11 @@
 #easybank .navi{
     display: flex;
     align-items: center;
-    /* border:2px solid red; */
+ 
     
 }
 #easybank .l1,.l2{
-    /* display: flex; */
-    /* border: 2px solid red; */
+
     padding:0px 20px;
 }
 #easybank ul li{
@@ -307,7 +300,7 @@
 #easybank .copyright li button{
     width:130px;
     
-    /* display: flex; */
+  
     border:transparent;
     border-radius: 15px;
     padding:7px;
@@ -320,29 +313,3 @@
     padding:4px;
     color:hsl(0, 0%, 100%);
 }  
-/* #easybank .copyright{
-    display: flex;
-    flex-direction: column;
-    border: 2px solid red;
-}
-#easybank .copyright li{
-    list-style: none;
-    padding:2px;
-    text-align: center;
-} */
-
-/* #home .image .img2 {
-    height: 50vh;
-    width:50vw;
-    position: relative;
-    bottom:300px;
-    z-index: 0;
-    display: none;
-}
-
-#home .image .img1{
-    height: 50vh;
-    width:50vw;
-    z-index: -2;
-    display: none;
-} */

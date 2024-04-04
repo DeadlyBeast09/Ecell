@@ -1,0 +1,348 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family:"Public Sans", sans-serif;;
+}
+
+#navbar {
+    display: flex;
+    /* border:2px solid red; */
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    z-index:1;
+    box-shadow: 0px 4px 4px 0px lightslategray;
+    position:fixed;
+    width:100%;
+}
+@media only screen and (min-width:655px) {
+    
+    .onclicklogo{
+
+        display: none;
+    }
+    /* display: block; */
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: 
+    border:2px solid red;
+    
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;   
+    /* border:2px solid red; */
+    padding:0px 0px;
+ 
+}
+#navbar ul li{
+    transition:0.5s;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    margin:0px 10px;
+    /* border: 2px solid red; */
+
+ color:hsl(233, 8%, 62%);
+ font-weight: 400;   
+ 
+}
+#navbar ul li:hover::after{
+    content:"";
+    display: block;
+    width:47px;
+    height: 2px;
+    background:linear-gradient(to left,hsl(136, 65%, 51%),hsl(192, 70%, 51%) );
+    position: relative;
+    /* margin:0px 10px; */
+    left:10px;
+    top:33px;
+
+    
+}
+.navbutton{
+    border:transparent;
+    border-radius: 18px;
+    padding:10px 12px;
+    background:linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    
+}
+.navbutton:hover
+{
+    color:hsl(0, 0%, 100%);
+}
+
+
+
+/* Home */
+#home{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* background-color: hsl(0, 0%, 98%) ; */
+    z-index: -2;
+    height:120vh;
+}
+#home .box1{
+    /* border:2px solid red; */
+    text-align: left;
+    width:500px;
+    
+    margin:0px 30px;
+    /* height: 400px; */
+    height: fit-content;
+}
+#home .box1 h1{
+    font-size: 55px;
+    padding:10px;
+    font-weight: lighter;
+}
+#home .box1 p{
+    padding:12px 10px;
+    font-size: 20px;
+    color:grey;
+    font-weight: 300;
+}
+#home .box1 button{
+    padding:10px 12px;
+    width:150px;
+    border-radius: 17px;
+    border:transparent;
+    background:linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%)) ;
+}
+
+#home .box1 button:hover{
+    color:hsl(0, 0%, 100%);
+}
+
+#home{
+    background:url('./images/image-mockups.png') no-repeat,
+     url('./images/bg-intro-desktop.svg')no-repeat ;
+    background-position:125vh -13vh,80vh -40vh;
+    background-size:contain 0;
+    /* background: url('./images/bg-intro-desktop.svg'); */
+}
+
+
+/* why */
+
+#why .question{
+    /* border: 2px solid red; */
+    width: fit-content;
+    position: relative;
+    left:50px;
+}
+#why .question h1{
+    padding:5px;
+    padding-left:0px;
+    margin:0px -20px;
+    color:hsl(233, 26%, 24%);
+    
+    font-weight: 400;
+    font-size: 30px;
+}
+#why .question {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+#why .question p{
+    padding:2px;
+    color:hsla(235, 6%, 42%, 0.999);
+ 
+    margin:0px -20px;
+    text-align: left;
+}
+#why .container1{
+    /* border:2px solid red; */
+    display: flex;
+    padding:20px 0px;
+    padding-bottom: 0px;
+    justify-content: space-around;  
+    flex-wrap: wrap;
+}
+#why .container1 .box{
+    width: 270px;
+    height: 380px;
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+#why h3{
+    font-weight: 400;
+    color:hsl(233, 26%, 24%);
+    font-size: 18;
+}
+.pic{
+    padding:10px;
+}
+
+#why .container1 .box p{
+    padding:10px 0px;
+    font-size: 18px;
+    color:hsla(235, 6%, 42%, 0.999);
+}
+
+
+
+
+/* Latest Articles */
+#articles h3{
+    
+    font-size: 28px;
+    font-weight: lighter;
+    padding:20px;
+}
+#articles .container2{
+    padding:10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#articles .container2 .box{
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width:270px;
+    height: 435px;
+    box-shadow: 0px 4px 4px 0px lightslategray;
+}
+#articles img{
+    padding:5px;
+    border-radius: 12px 12px 0px 0px ;
+}
+#articles h4{
+    font-weight: lighter;
+    padding:10px;
+}
+#articles h2{
+    font-weight:500;
+    font-size: 24px;
+    padding:10px;
+    padding-top: 2px;
+}
+#articles h2 a{
+    text-decoration: none;
+    color:black;
+}
+#articles h2 a:hover{
+    color:darkgreen;
+}
+#articles p{
+    font-size: 18px;
+    padding:10px;
+    padding-top: 2px;
+    color:hsla(235, 6%, 42%, 0.999);
+}
+#articles h3{
+    margin:0px 70px;
+    padding:10px;
+    font-size: 30px;
+    font-weight: 400;
+    color:hsl(233, 26%, 24%);
+}
+#why .question{
+    z-index: -1;
+}
+
+#easybank{
+    display: flex;
+    background-color: hsl(233, 26%, 24%);
+    height:fit-content;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#easybank .media{
+    display: flex;
+    flex-direction: column;
+    /* border:2px solid red; */
+    padding:10px;
+}
+#easybank .media .logo{
+    padding:15px;
+}
+#easybank .media .social{
+    padding:15px;
+}
+#easybank .media .social img{
+    padding:2px;
+}
+
+#easybank .navi{
+    display: flex;
+    align-items: center;
+    /* border:2px solid red; */
+    
+}
+#easybank .l1,.l2{
+    /* display: flex; */
+    /* border: 2px solid red; */
+    padding:0px 20px;
+}
+#easybank ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding:5px 0px;
+    justify-content: center;
+    align-items: center;
+}
+#easybank ul a{
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);
+}
+#easybank ul a:hover{
+    color:hsl(136, 65%, 51%);
+}
+
+#easybank .copyright li button{
+    width:130px;
+    
+    /* display: flex; */
+    border:transparent;
+    border-radius: 15px;
+    padding:7px;
+    background:linear-gradient(to right,hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+} 
+#easybank .copyright li button:hover{
+    color:hsl(0, 0%, 100%);
+}
+#easybank .copyright{
+    padding:4px;
+    color:hsl(0, 0%, 100%);
+}  
+/* #easybank .copyright{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+#easybank .copyright li{
+    list-style: none;
+    padding:2px;
+    text-align: center;
+} */
+
+/* #home .image .img2 {
+    height: 50vh;
+    width:50vw;
+    position: relative;
+    bottom:300px;
+    z-index: 0;
+    display: none;
+}
+
+#home .image .img1{
+    height: 50vh;
+    width:50vw;
+    z-index: -2;
+    display: none;
+} */

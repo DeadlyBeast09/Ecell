@@ -1,0 +1,70 @@
+@media only screen and (max-width:655px) {
+#home{
+    /* margin:none; */
+
+    
+    /* flex-direction: column; */
+}
+#home .img{
+    /* display: flex; */
+}
+#home .box1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.onclicklogo{
+    display:block;
+}
+
+
+ .navbutton{
+    display: none;
+ }
+ li{
+    display: none;
+ }
+ #why{
+    width:fit-content;
+ }
+ #why .question{
+    text-align: center;
+ }
+ #why .question p{
+    text-align: center;
+ }
+#why .container1{
+    text-align: center;
+}
+#why .container1 .box{
+    height: fit-content;
+
+    
+}
+ #articles
+ {
+    width: fit-content;
+ }
+ #articles .box
+ {
+    padding:8px 0px;
+ }
+ #easybank{
+    flex-direction: column;
+    text-align: center;
+ }
+ #easybank .navi{
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* margin:auto; */
+ }
+ #easybank .copyright{
+    /* display: inline-block; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* margin: auto -34px; */
+
+ }
+}
+

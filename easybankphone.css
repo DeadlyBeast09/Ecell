@@ -1,13 +1,5 @@
 @media only screen and (max-width:655px) {
-#home{
-    /* margin:none; */
 
-    
-    /* flex-direction: column; */
-}
-#home .img{
-    /* display: flex; */
-}
 #home .box1{
     text-align: center;
     display: flex;
@@ -57,14 +49,6 @@
  #easybank .navi{
     flex-direction: column;
     flex-wrap: wrap;
-    /* margin:auto; */
- }
- #easybank .copyright{
-    /* display: inline-block; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* margin: auto -34px; */
-
- }
+   }
 }
 
